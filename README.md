@@ -1,5 +1,5 @@
 # Product Table
-## Date:
+## Date:7-07-2-25
 ## Objective:
 
 To create a structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes.
@@ -48,6 +48,45 @@ Use meaningful text inside the table for clarity.
 
 Keep the table design strictly in HTML for simplicity.
 ## HTML Code:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+</head>
+<body>
+    <table cellspacing="5" cellpadding="5" border="5">
+        <caption>Product Information</caption>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>50000</td>
+                <td>High performance</td>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>500</td>
+                <td>Smooth tracking</td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td>60000</td>
+                <td>High resolution display</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+```
 
 ## Output:
 
