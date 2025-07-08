@@ -52,10 +52,9 @@ Keep the table design strictly in HTML for simplicity.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Table</title>
-</head>
+        <title>Product Table</title>
+        <link rel='stylesheet' href="styles.css">
+    </head>
 <body>
     <table cellspacing="5" cellpadding="5" border="5">
         <caption>Product Information</caption>
@@ -87,9 +86,46 @@ Keep the table design strictly in HTML for simplicity.
 </body>
 </html>
 ```
+## CSS
+```css
+body{
+    background-color: rgb(8, 247, 195);
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    margin: auto;
+    border: 2px;
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+th{
+    background-color: #f31f50;
+    color: rgb(246, 241, 241);
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+tr:hover{
+    background-color: #ee4b10;
+}
+tr:nth-child(even) {
+    background-color: #f8f803;
+}
+caption{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+```
 
 ## Output:
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/ad5e2571-9659-42ad-b0d6-340c18792055" />
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/3667d709-4101-4401-9d0c-103b9e69eeae" />
+
 
 
 ## Result:
