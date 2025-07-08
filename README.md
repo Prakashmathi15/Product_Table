@@ -1,5 +1,5 @@
 # Product Table
-## Date:7-07-2-25
+## Date:8-07-2-25
 ## Objective:
 
 To create a structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes.
