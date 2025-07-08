@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(8, 247, 195);
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    margin: auto;
+    border: 2px;
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+th{
+    background-color: #f31f50;
+    color: rgb(246, 241, 241);
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+tr:hover{
+    background-color: #ee4b10;
+}
+tr:nth-child(even) {
+    background-color: #f8f803;
+}
+caption{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
